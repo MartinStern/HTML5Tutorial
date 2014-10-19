@@ -1,0 +1,75 @@
+<!DOKTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>This is a Test with Forms and Elements</title>
+		<link rel="stylesheet" href="forms.css"/>
+	</head>
+	<body>
+		<form action="" method="get">
+			<fieldset class="sampleinput">
+				<legend>this is crazy</legend>
+				<label for="field1">some input:</label><input id="field1" type="text" name="inputfield" maxlength="10" value="" size="15" /></br>
+				<label for="field2">password:</label><input id="field2" type="password" name="pswfield" maxlength="10" size="15" />
+			</fieldset>
+			
+			<fieldset class="movement">
+				<legend>all kinds of transport</legend>
+				pick a item:
+				<select name="selecteditem" multiple size="3">
+					<optgroup label="cars">
+						<option value="car1">Camaro</option>
+						<option value="car2" selected>Mustang</option>
+					</optgroup>
+					<optgroup label="bikes">
+						<option value="bike1">Harley Davidson</option>
+						<option value="bike2">Suzuki Hayabusa</option>
+					</optgroup>
+					<optgroup label="boats">
+						<option value="fast_boat" selected>catamaran</option>
+						<option value="slow_boat">freighter</option>
+					</optgroup>
+				</select>
+			</fieldset>
+			</br></br>
+			<div>
+				what kind of weather do you like? select one or more<br/>
+				sunny<input type="checkbox" name="weather_type" value="wt1">
+				rainy<input type="checkbox" name="weather_type" value="wt2" checked>
+				clouded<input type="checkbox" name="weather_type" value="wt3">
+			</div>
+			</br></br>
+			<div>
+				what kind of weather do you like? select one<br/>
+				sunny<input type="radio" name="weather_type_choosed" value="wt1">
+				rainy<input type="radio" name="weather_type_choosed" value="wt2" checked>
+				clouded<input type="radio" name="weather_type_choosed" value="wt3">
+			</div>
+			</br></br>
+			<div>
+				give me some input:</br>
+				<textarea name"message_given" rows="10" cols="50"></textarea>
+			</div>
+			</br></br>
+			<div>
+				go or nogo?</br>
+				<input type="button" name"button_yes" value="YES!">
+				<input type="button" name"button_no" value="NEVER!!!!">
+			</div>
+			</br></br>
+			<div>
+				Upload?</br>
+				<input type="file">
+			</div>
+			</br></br>
+			<div>
+				Send?</br>
+				<input type="submit" value="send/submit"></br>
+				<input type="reset" value="mach neu"></br>
+			</div>
+			
+			
+		</form>
+
+	</body>
+</html>

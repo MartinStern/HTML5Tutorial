@@ -1,0 +1,75 @@
+#test1{
+	color:blue;
+}
+#test2{
+	background-color:black;
+	color:yellow;
+}
+#test3{
+	color:pink;
+}
+
+p{
+	color:red;
+	font-family:Courier;
+/*	font-weight:900;  if you use font-weight, strong may not have any effect*/
+}
+
+p:first-letter{
+	color:blue;
+	font-weight:bold;
+	font-size:20px;
+}
+
+/* Definitionen Header 1 */
+h1{
+	background-color:PapayaWhip;
+
+	/* Padding */
+	/*
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:300px;
+	*/
+
+	/* top right bottom left */
+	/* padding:5px 10px 40px 80px; */
+
+	/* top/bottom left/right */
+	padding:5px 30px;
+
+	/* alle paddings gleich gross */
+	/*padding:40px;*/
+
+	/* Border */
+	/*
+	border-style:dotted;   / *  solid, dashed, dotted, ridge .... * /
+	border-width:5px;
+	border-color:blue;
+	*/
+
+	/* Kurzform, wobei die Reihenfolge anscheinend egal ist */
+	/* border: 10px ridge red; */
+	/* border: ridge 10px red; */
+
+	/* nur oben und unten ...*/
+	border-top:blue 5px dotted;
+	border-bottom:green 10px solid;
+
+	/* Margins */
+	margin:50px;
+}
+
+div{
+	border:3px solid red;
+/*	background-color:#1AF0EC;*/  /* http://html-color-codes.info/ */
+	background-color:Peru;  /* http://html-color-codes.info/ */
+	width:300;
+}
+
+span{
+	color:blue;
+/* 	text-decoration:underline; */
+
+}

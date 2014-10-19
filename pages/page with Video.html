@@ -1,0 +1,29 @@
+<!DOKTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>This is my first web page with Video</title>
+	</head>
+	<body>
+		<h1>Let's play some video</h1>
+		<p>video with autoplay and loop, sound level = 0.3</p>
+		<video id="v1" controls autoplay loop>
+			<source src="../video/Liricas Analas - Back cun Slang.mp4" type="video/mp4"/>
+			Wenn dieser Text erscheint, ist dein Browser nicht up to date!
+		</video>
+		<script>
+			var video = document.getElementById("v1");
+			video.volume = 0.3;
+		</script>
+		
+		<p>video with different size, sound level = 0.6</p>
+		<video id="v2" controls width=200> <!-- wenn breite und höhe zusammen angegeben werden, kann es vorkommen, dass das verhältnis nicht stimmt -->
+			<source src="../video/Liricas Analas - Back cun Slang.mp4" type="video/mp4"/>
+			Wenn dieser Text erscheint, ist dein Browser nicht up to date!
+		</video>
+		<script>
+			var video = document.getElementById("v2");
+			video.volume = 0.60;
+		</script>
+	</body>
+</html>
