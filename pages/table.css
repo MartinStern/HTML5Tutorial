@@ -1,5 +1,5 @@
 table{
-	border:1px solid black;
+	border:1px solid yellow; /* comment fix01 */
 	border-collapse:collapse;
 }
 
@@ -20,4 +20,3 @@ tfoot{
 	background-color:lightgreen;
 	text-align:center;
 }
-
