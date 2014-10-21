@@ -1,2 +1,3 @@
 this is entry one (by master)
 and this is a entry by fix02
+and one more entry by fix02
