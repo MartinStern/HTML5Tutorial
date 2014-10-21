@@ -1,1 +1,2 @@
 this is entry one (by master)
+this is entry two (by master)
