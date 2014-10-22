@@ -1,4 +1,5 @@
 this is entry one (by master)
 and this is a entry by fix02
-this is entry two (by master)
+this is entry two (by master), and changed by fix03
 and one more entry by fix02
+and im from fix03
